@@ -3321,8 +3321,8 @@
 			}
 		]
 	},
-	"description": "Lua Language Server coded by Lua",
-	"displayName": "Lua",
+	"description": "Lua Language Server coded by Lua, specified to cpl",
+	"displayName": "CPL LS",
 	"engines": {
 		"vscode": "^1.67.0"
 	},
@@ -3335,7 +3335,7 @@
 	"license": "MIT",
 	"main": "./client/out/extension",
 	"name": "lua",
-	"publisher": "sumneko",
+	"publisher": "cpl",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/LuaLS/lua-language-server"
@@ -3343,5 +3343,5 @@
 	"sponsor": {
 		"url": "https://github.com/LuaLS/lua-language-server/issues/484"
 	},
-	"version": "3.7.4"
+	"version": "1.0.1"
 }
