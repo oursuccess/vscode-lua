@@ -2846,6 +2846,46 @@
 								"disable"
 							],
 							"type": "string"
+						},
+						"type_alias": {
+							"default": "default",
+							"description": "%config.runtime.builtin.table.type_alias%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"global_vars": {
+							"default": "default",
+							"description": "%config.runtime.builtin.table.global_vars%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"csvars_autogen": {
+							"default": "default",
+							"description": "%config.runtime.builtin.table.csvars_autogen%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"csvars_manual": {
+							"default": "default",
+							"description": "%config.runtime.builtin.csvars_manual%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
 						}
 					},
 					"scope": "resource",
